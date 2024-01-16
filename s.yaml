@@ -24,6 +24,7 @@ services:
             acs:fc:cn-hangzhou:official:layers/Python310-Package-Collection/versions/2
           - acs:fc:cn-hangzhou:official:layers/Python3-Flask2x/versions/2
         memorySize: 128
+        gpuMemorySize: 16384
         cpu: 8
         timeout: 60
         codeUri: ./
